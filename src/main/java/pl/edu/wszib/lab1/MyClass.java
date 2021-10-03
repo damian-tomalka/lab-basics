@@ -1,6 +1,7 @@
 package pl.edu.wszib.lab1;
 
-public class MyClass {
+
+public class MyClass implements MyInterface, MyInterface2 {
     public static String staticName;
     protected static String staticName2;
     static String staticName3;
@@ -11,6 +12,9 @@ public class MyClass {
     String name2; // package-private or default
     private String name3;
 
+
+
+    @Override
     public void print() {
         System.out.println("Non-static");
         System.out.println("Name: " + name);

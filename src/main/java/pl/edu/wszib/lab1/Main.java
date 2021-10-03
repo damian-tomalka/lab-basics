@@ -5,12 +5,6 @@ import pl.edu.wszib.lab1.mypackage.MyExtendedClass;
 import pl.edu.wszib.lab1.mypackage.MyPackageClass;
 
 public class Main {
-    //public
-    //protected - package & klasa dziedzicząca
-    //default/pakage-private - bez specyfikatora
-    //private - zasięg klasy
-
-
     public static void main(String[] args) {
         System.out.println("Hello World");
         MyClass myClass = new MyClass();
@@ -32,5 +26,4 @@ public class Main {
         MyClass myExtendedClass1 = new MyExtendedClass();
         myExtendedClass1.name2 = "";
     }
-
 }

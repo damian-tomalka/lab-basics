@@ -13,7 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1617a8a4-faa6-40ce-8874-057d60bb6a56" name="Default Changelist" comment="init" />
+    <list default="true" id="1617a8a4-faa6-40ce-8874-057d60bb6a56" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/MyInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/MyTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/mypackage/MyExtendedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/lab1/mypackage/MyExtendedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/mypackage/MyExtendedClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/mypackage/MyExtendedClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/mypackage/MyPackageClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/lab1/mypackage/MyPackageClass.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -53,8 +67,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.edu.wszib.lab1.mypackage" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.edu.wszib.lab1" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyTypes">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.lab1.Main" />
       <module name="lab-basics" />
@@ -68,8 +85,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.lab1.MyTypes" />
+      <module name="lab-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.wszib.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTypes" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -85,6 +129,7 @@
       <workItem from="1633256435031" duration="743000" />
       <workItem from="1633257193229" duration="4293000" />
       <workItem from="1633262791514" duration="240000" />
+      <workItem from="1633264512330" duration="2243000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1633264418395</created>
@@ -93,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633264418395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First steps">
+      <created>1633264995316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633264995316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,10 +161,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="First steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="First steps" />
   </component>
   <component name="WindowStateProjectService">
     <state x="254" y="85" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633263649460">
@@ -123,26 +177,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1633263600699" />
-    <state width="1557" height="55" key="GridCell.Tab.0.bottom" timestamp="1633264492639">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1633266452900">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="55" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1633264492639" />
-    <state width="1557" height="55" key="GridCell.Tab.0.center" timestamp="1633264492639">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1633266452900" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1633266452900">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="55" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1633264492639" />
-    <state width="1557" height="55" key="GridCell.Tab.0.left" timestamp="1633264492639">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1633266452900" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1633266452900">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="55" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1633264492639" />
-    <state width="1557" height="55" key="GridCell.Tab.0.right" timestamp="1633264492639">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1633266452900" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1633266452900">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="55" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1633264492639" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1633266452900" />
     <state x="280" y="4" key="SettingsEditor" timestamp="1633263606396">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1633263606396" />
+    <state x="535" y="212" key="Vcs.Push.Dialog.v2" timestamp="1633265231579">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="535" y="212" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1633265231579" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1633259348932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
